@@ -6,3 +6,4 @@ git diff --cached
 1
 git tracks changes of files.
 first git push origin master.
+creating a new brach is quick.
