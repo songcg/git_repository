@@ -7,4 +7,5 @@ git diff --cached
 git tracks changes of files.
 first git push origin master.
 creating a new brach is quick.
-creating a new branch is quick & simple.
+creating a new branch is quick and simple.
+
