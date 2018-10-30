@@ -8,4 +8,9 @@ git tracks changes of files.
 first git push origin master.
 creating a new brach is quick.
 creating a new branch is quick and simple.
+<<<<<<< Updated upstream
 git stash fix bug
+=======
+git stash
+
+>>>>>>> Stashed changes
