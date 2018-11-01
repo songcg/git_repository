@@ -24,6 +24,6 @@ git branch -a  #查看所有分支
 	git checkout dev      git merge temp   git branch -d temp
 方法3：最简单的方法：
 	git checkout dev
-	git pull
+	git pull origin dev
 推送分支到远程
 git push origin dev
