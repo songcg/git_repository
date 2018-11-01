@@ -12,3 +12,7 @@ git stash fix bug
 创建远程分支：
 git checkout -b dev
 git push origin dev
+Git clone非master分支的代码
+git branch -r #查看远程分支
+git branch -a  #查看所有分支
+git checkout origin/dev   #直接就将远程分支clone下来了
