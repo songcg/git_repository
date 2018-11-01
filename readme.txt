@@ -22,5 +22,8 @@ git branch -a  #查看所有分支
 方法2：
 	git fetch origin dev:temp   #在本地新建一个temp分支，并将远程origin仓库的master分支代码下载到本地temp分支
 	git checkout dev      git merge temp   git branch -d temp
+方法3：最简单的方法：
+	git checkout dev
+	git pull
 推送分支到远程
 git push origin dev
