@@ -16,5 +16,7 @@ Git clone非master分支的代码
 git branch -r #查看远程分支
 git branch -a  #查看所有分支
 git checkout origin/dev   #直接就将远程分支clone下来了
+注意通过上面的方法clone出来的分支是一个游离分支，需要合并到工作分支如dev分支
+方法是：  git branch temp   git checkout dev     git merge temp
 推送分支到远程
 git push origin dev
