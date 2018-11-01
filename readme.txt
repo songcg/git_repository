@@ -9,4 +9,6 @@ first git push origin master.
 creating a new brach is quick.
 creating a new branch is quick and simple.
 git stash fix bug
-
+创建远程分支：
+git checkout -b dev
+git push origin dev
