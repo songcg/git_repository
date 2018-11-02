@@ -1,9 +1,10 @@
+# git status 不提示以下文件的修改，忽略的文件
 # Windows:
 Thumbs.db
 ehthumbs.db
 Desktop.ini
 
-# Python:
+# Python:  
 *.py[cod]
 *.so
 *.egg
