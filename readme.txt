@@ -27,3 +27,9 @@ git branch -a  #查看所有分支
 	git pull origin dev
 推送分支到远程
 git push origin dev
+创建标签
+git tag v1.0
+显示所有标签： git tag
+git tag v0.9 6ffa   对指定commit id进行打标签
+git show v0.9  查看标签信息
+git tag -a v0.1 -m "version 0.1 release" 1094  指定标签名、指定说明
