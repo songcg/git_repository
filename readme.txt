@@ -212,3 +212,7 @@ git push --tags  更新远程tags
 git tag -d v0.9  删除一个标签
 git push origin :refs/tags/v0.9   删除一个远程标签
 同步本地tag：简单粗暴的方法，先删除本地所有tag,然后重新fetch，或查看远程tag(git ls-remote --tags origin),然后删除本地tag
+忽略本地某些指定文件的方法，可以使工作区不显示修改：
+git status  即不显示有文件已修改 需要配置.gitignore文件
+
+
