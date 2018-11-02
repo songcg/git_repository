@@ -209,3 +209,5 @@ git show v0.9  查看标签信息
 git tag -a v0.1 -m "version 0.1 release" 1094  指定标签名、指定说明
 git pull --tags  更新本地tags
 git push --tags  更新远程tags
+git tag -d v0.9  删除一个标签
+git push origin :refs/tags/v0.9   删除一个远程标签
