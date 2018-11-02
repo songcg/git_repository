@@ -33,3 +33,5 @@ git tag v1.0
 git tag v0.9 6ffa   对指定commit id进行打标签
 git show v0.9  查看标签信息
 git tag -a v0.1 -m "version 0.1 release" 1094  指定标签名、指定说明
+git pull --tags  更新本地tags
+git push --tags  更新远程tags
